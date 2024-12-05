@@ -1,0 +1,41 @@
+.share path {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 0.1;
+  stroke-dashoffset: 50;
+  stroke-dasharray: 50;
+  animation: shareAnimation 4s ease-in-out 1 forwards;
+}
+@keyframes shareAnimation {
+  0% {
+    stroke-dashoffset: 50;
+  }
+  80% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+    stroke-dashoffset: 0;
+  }
+}
+
+.off path {
+  fill: transparent;
+  stroke: #e90000;
+  stroke-width: 0.1;
+  stroke-dashoffset: 50;
+  stroke-dasharray: 50;
+  animation: offAnimation 4s ease-in-out 1 forwards;
+}
+@keyframes offAnimation {
+  0% {
+    stroke-dashoffset: 50;
+  }
+  80% {
+    fill: transparent;
+  }
+  100% {
+    fill: #e90000;
+    stroke-dashoffset: 0;
+  }
+}

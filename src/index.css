@@ -1,0 +1,22 @@
+@import "./styles/intro.css";
+@import "/styles/sidebar.css";
+@import "/styles/mobileview.css";
+@import "/styles/profile.css";
+@import "/styles/home.css";
+@import "/styles/postOffer.css";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@layer base {
+  html {
+    font-family: "Proxima Nova", system-ui, sans-serif;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: Outfit;
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

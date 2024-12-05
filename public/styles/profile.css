@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+.profile_section {
+  @apply w-full h-fit  rounded-lg overflow-y-scroll;
+}
+.profile_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_name {
+  font-family: oswald;
+  height: fit-content;
+  font-size: 30px;
+  color: white;
+  font-weight: 900;
+  text-align: end;
+}

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+.activeLink {
+  @apply border bg-indigo-600;
+}
+.side-bar {
+  @apply flex items-center gap-2 p-4 m-1 px-10 text-white font-thin rounded-md hover:scale-105 transition-transform duration-300 hover:bg-indigo-500 bg-zinc-900 hover:text-white;
+}
+.profile_name {
+  font-family: Oswald;
+}

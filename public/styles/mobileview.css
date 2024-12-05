@@ -1,0 +1,9 @@
+.mobileview_container {
+  @apply flex justify-around py-3;
+}
+.activeMobileLink {
+  @apply text-white bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500;
+}
+.mobile_bar {
+  @apply p-2 rounded-full hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:p-2 text-white relative;
+}
