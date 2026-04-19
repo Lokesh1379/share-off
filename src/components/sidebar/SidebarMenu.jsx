@@ -13,7 +13,7 @@ const SidebarMenu = () => {
       <div className="">
         <Link
           to="/"
-          className="flex items-center gap-2 p-4 m-1  font-light  rounded-md bg-zinc-900 "
+          className="flex items-center gap-2 p-4 m-1  font-light  rounded-md "
         >
           <svg
             width="100"

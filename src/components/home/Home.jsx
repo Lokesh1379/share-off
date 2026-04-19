@@ -8,6 +8,7 @@ import { FaRegComment } from "react-icons/fa6";
 import { LiaTelegramPlane } from "react-icons/lia";
 import { AiOutlineMessage } from "react-icons/ai";
 import post_offers from "../../data/posts";
+import SlideInPopup from "../popups/Success";
 const metadata = {
   title: "Home || Share%off ",
   description: "Share%off - convert Offers into money",
@@ -123,6 +124,7 @@ const Home = () => {
             })}
           </div>
         </div>
+        <SlideInPopup />
       </div>
     </div>
   );
